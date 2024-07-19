@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6A0DAD; /* Purple background color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    background-color: #fff; /* White background for the form container */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, yellow); /* Gradient background */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, yellow, red);
+}
+
+#login-button {
+    margin-top: 10px;
+    background: transparent; /* Transparent background for the login button */
+    padding: 0; /* Remove padding */
+}
+
+#login-button a {
+    display: block;
+    text-decoration: none;
+    color: #00C7C7; /* Cyan color for the login link */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+}
+
+#login-button a:hover {
+    color: #009999; /* Darker cyan color on hover */
+}
+
+#message {
+    margin-top: 20px;
+    color: red; /* Red color for error message */
+    font-weight: bold;
+}

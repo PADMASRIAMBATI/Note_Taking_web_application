@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="/frontend/css/styles.css">
+</head>
+<body>
+    <h1>Notes</h1>
+    <div id="note-list">
+        <!-- List of notes will be inserted here -->
+    </div>
+    <form id="note-form">
+        <input type="text" id="note-title" placeholder="Title" required>
+        <textarea id="note-content" placeholder="Content" required></textarea>
+        <input type="hidden" id="note-id"> <!-- Hidden field for note ID -->
+        <button type="button" id="add-note">Add Note</button>
+        <button type="button" id="update-note" style="display:none;">Update Note</button>
+    </form>
+    <script src="/frontend/js/app.js"></script>
+</body>
+</html>
